@@ -62,6 +62,7 @@ public:
         cout << "Info: " << _info << endl;
         cout << "Value: " << *_value << endl;
         //cout << "Type: " << ((_type == 0)? "NEW" : "OLD") << endl;
+        cout << endl;
         SetConsoleTextAttribute(hConsole, 7);
     }
 
@@ -203,6 +204,7 @@ public:
             cout << "State is empty" << endl;
             SetConsoleTextAttribute(hConsole, 7);
         }
+        cout << endl;
 
     }
 };
